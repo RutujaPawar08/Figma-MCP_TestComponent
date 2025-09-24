@@ -1,0 +1,23 @@
+.figma-btn {
+  background: #003df5;
+  color: #fff;
+  font-family: 'Scandinavian New', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 96px;
+  padding: 19px 32px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

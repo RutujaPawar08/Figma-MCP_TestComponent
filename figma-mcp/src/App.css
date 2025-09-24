@@ -1,0 +1,21 @@
+.Sas-Btn{
+display: inline-flex;
+height: 4rem;
+padding: 1.1875rem var(--spacing-7, 2rem);
+justify-content: center;
+align-items: center;
+gap: var(--spacing-3, 0.5rem);
+flex-shrink: 0;
+border-radius: var(--corner-radius-full, 6rem);
+background: var(--color-fill-primary, #003DF5);
+color: color/text/on-color;
+text-align: center;
+color: #ffffff;
+border: none;
+/* Foundation/Bold 3 */
+font-family: var(--font-family-sans-serif, "Scandinavian New");
+font-size: var(--font-system-size-4, 1.125rem);
+font-style: normal;
+font-weight: 700;
+line-height: var(--line-height-04, 1.75rem); /* 155.556% */
+}

@@ -1,0 +1,22 @@
+.mcp-loader {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.mcp-loader__spinner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid var(--mcp-loader-color, #333333);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  animation: mcp-spin var(--mcp-loader-speed, 1.2s) linear infinite;
+  box-sizing: border-box;
+}
+@keyframes mcp-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
